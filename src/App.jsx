@@ -29,7 +29,7 @@ function App() {
     }
   }
 
-  function handleClick(text){
+  function handleClick (text){
     !["AC", "C", "="].includes(text) ? setExp(exp.concat(text)) : operation(text);
   }
   let arr = ["AC", "C", "/", "7", "8", "9", "*", "4", "5", "6", "-", "1", "2", "3", "+", "00", "0", ".", "="];
